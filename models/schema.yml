@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: fct_sales
+    columns:
+
+      - name: reference_id
+        tests:
+          - unique
+          - not_null
+
+      - name: country
+        tests:
+          - not_null
+
+      - name: total_revenue
+        tests:
+          - not_null
+
+      - name: order_date_kyiv
+        tests:
+          - not_null
+
+      - name: product_name
+        tests:
+          - not_null
+
+
+
+
+
+
